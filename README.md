@@ -64,29 +64,29 @@ A implementação está em curso e será constantemente atualizada neste reposit
 
 ## DEPENDENCIAS:
 
-Este app tem base no Docker, para evitar configurações extras, você deve ter o docker e docker-compose instalado na sua máquina.
+Este app tem base no Docker, para evitar configurações extras, você deve ter o `docker` e `docker-compose` instalado na sua máquina.
 
-Se você não quer instalar docker e docker-compose, você poderá usar a aplicação ao instalar esses programas a baixo.
+Se você não quer instalar `docker` e `docker-compose`, você poderá usar a aplicação ao instalar esses programas a baixo.
 
-Free Pascal Compiler;
-ElasticSearch (>= 2.4.5);
-PhantomJS (>= 1.9) - Used to run tests in development;
-Postgres (>= 9.5);
-Ruby (>= 2.3).
+* Free Pascal Compiler;
+* ElasticSearch (>= 2.4.5);
+* PhantomJS (>= 1.9) - Used to run tests in development;
+* Postgres (>= 9.5);
+* Ruby (>= 2.3).
 
 ## USO
 
-Clone o repositório: git clone https://github.com/rwehresmann/farma_alg_reborn.git.
+Clone o repositório: `git clone https://github.com/rwehresmann/farma_alg_reborn.git`.
 
 No repositório use os comandos:
 
-docker-compose build;
-docker-compose run --rm app rake db:create;
-docker-compose run --rm app rake db:migrate;
-docker-compose run --rm app rake db:seed (Apenas se você quiser popular o banco de dados com dados de exemplo);
-docker-compose run --rm app rspec
+* `docker-compose build`;
+* `docker-compose run --rm app rake db:create`;
+* `docker-compose run --rm app rake db:migrate`;
+* `docker-compose run --rm app rake db:seed` (Apenas se você quiser popular o banco de dados com dados de exemplo);
+* `docker-compose run --rm app rspec`
 
-Se o rspec terminou sem erros, você está pronto para rodar o programa. Execute docker-compose up e acesse http://localhost:3000.
+Se o rspec terminou sem erros, você está pronto para rodar o programa. Execute `docker-compose up` e acesse http://localhost:3000.
 
 ## Quer contribuir?
 
