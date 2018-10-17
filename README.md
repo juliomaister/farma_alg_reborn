@@ -30,7 +30,7 @@ If you don't want to install these softwares, you will be able to use this app i
 
 ## Usage
 
-Clone the repository: `git clone https://github.com/rwehresmann/farma_alg_reborn.git`. 
+Clone the repository: `git clone https://github.com/juliomaister/farma_alg_reborn.git`. 
 
 In the repository folder, run:
 * `docker-compose  build`;
@@ -76,7 +76,7 @@ Se você não quer instalar `docker` e `docker-compose`, você poderá usar a ap
 
 ## USO
 
-Clone o repositório: `git clone https://github.com/rwehresmann/farma_alg_reborn.git`.
+Clone o repositório: `git clone https://github.com/juliomaister/farma_alg_reborn.git`.
 
 No repositório use os comandos:
 
